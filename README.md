@@ -32,3 +32,10 @@ With this you should have the basic environement to start working.
 
 ### Open first terminal with qtile
 If you can't open first terminal it's because qtile uses *xterm* terminal. In my case with *mod* (Windows key) and enter, it opens alacrit, but if you can't open it, press Ctrl+Alt+F2 (If you are in a VM and Linux host, do it with the keyborda provided) and install xterm with `sudo snap -S xterm`
+
+# My customization
+## Packages
+1. `sudo pacman -S sed which` (Utilities)
+2. `sudo pacman -S sed pulse-audio` (Audio)
+3. `sudo pacman -S rofi` (App menu)
+4. `sudo pacman -S feh` (change wallpaper -> feh --bg-scale <route> &)
