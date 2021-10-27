@@ -36,6 +36,14 @@ If you can't open first terminal it's because qtile uses *xterm* terminal. In my
 # My customization
 ## Packages
 1. `sudo pacman -S sed which` (Utilities)
-2. `sudo pacman -S sed pulse-audio` (Audio)
+1. `sudo pacman -S binutils` (Utilities)
+1. `sudo pacman -S udiskie` (external media sources (Usbs...))
+1. `sudo pacman -S thunar  ` (file explorer graphical/terminal)
+2. `sudo pacman -S pulseaudio pavucontrol` (Audio)
+2. `sudo pacman -S brightnessctl` (screen bright)
+2. `sudo pacman -S xorg-xinit` (xorg initial config) (you have to create .xsession file in your home `touch $HOME/.xsession` and give it execution perssion, `chmod u+x $HOME/.xsession`)
 3. `sudo pacman -S rofi` (App menu)
-4. `sudo pacman -S feh` (change wallpaper -> feh --bg-scale <route> &)
+4. `sudo pacman -S feh` (change wallpaper -> `feh --bg-scale <route> &`)
+4. `sudo pacman -S picom` (modify images)
+4. `sudo pacman -S volumeicon ` (`touch $HOME/.config/qtile/autostart.sh` and add line `volumeicon &` and `chmod u+x touch $HOME/.config/qtile/autostart.sh`) *Not working*
+4. `sudo yay -S nerd-fonts-ubuntu-mono` (font)
