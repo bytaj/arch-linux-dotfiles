@@ -37,6 +37,8 @@ If you can't open first terminal it's because qtile uses *xterm* terminal. In my
 ## Packages
 1. `sudo pacman -S sed which` (Utilities)
 1. `sudo pacman -S binutils` (Utilities)
+1. `sudo pacman -S python-pip` (Pip)
+1. `pip install psutil` (file explorer graphical/terminal)
 1. `sudo pacman -S udiskie` (external media sources (Usbs...))
 1. `sudo pacman -S thunar  ` (file explorer graphical/terminal)
 2. `sudo pacman -S pulseaudio pavucontrol` (Audio)
