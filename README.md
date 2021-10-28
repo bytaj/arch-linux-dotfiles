@@ -35,11 +35,16 @@ If you can't open first terminal it's because qtile uses *xterm* terminal. In my
 
 # My customization
 ## Packages
-1. `sudo pacman -S sed which` (Utilities)
+1. `sudo pacman -S sed which unzip ` (Utilities)
+1. `sudo pacman -S xcb-util-cursor` (change mouse)
+1. `sudo pacman -S network-manager -applet ` (net)
+1. See https://wiki.archlinux.org/title/Desktop_notifications for notifications
+1. `sudo pacman -S cbatticon ` (laptop batery)
 1. `sudo pacman -S binutils` (Utilities)
+1. `sudo pacman -S arandr` (Control)
 1. `sudo pacman -S python-pip` (Pip)
 1. `pip install psutil` (file explorer graphical/terminal)
-1. `sudo pacman -S udiskie` (external media sources (Usbs...))
+1. `sudo pacman -S udiskie ntfs-3g` (external media sources (Usbs...), second one is for windows ntfs disks)
 1. `sudo pacman -S thunar  ` (file explorer graphical/terminal)
 2. `sudo pacman -S pulseaudio pavucontrol` (Audio)
 2. `sudo pacman -S brightnessctl` (screen bright)
@@ -49,3 +54,4 @@ If you can't open first terminal it's because qtile uses *xterm* terminal. In my
 4. `sudo pacman -S picom` (modify images)
 4. `sudo pacman -S volumeicon ` (`touch $HOME/.config/qtile/autostart.sh` and add line `volumeicon &` and `chmod u+x touch $HOME/.config/qtile/autostart.sh`) *Not working*
 4. `sudo yay -S nerd-fonts-ubuntu-mono` (font)
+4. `sudo pacman -S pacman -S ttf-dejavu ttf-liberation noto-fonts` (font)
