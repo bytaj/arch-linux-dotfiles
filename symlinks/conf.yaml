@@ -17,3 +17,7 @@
     ~/.zshenv: shell/zsh/.zshenv
     ~/.zshrc: shell/zsh/.zshrc
     ~/.inputrc: shell/.inputrc
+    ~/.config/qtile: windows/manager/qtile
+    ~/.xsession: windows/system/xsession
+    ~/.config/alacritty: shell/alacritty
+    ~/.config/rofi: windows/utils/rofi

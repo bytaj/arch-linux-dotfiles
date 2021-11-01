@@ -1,6 +1,10 @@
 # Enable aliases to be sudo’ed
 alias sudo='sudo '
 
+alias grep='grep --color=auto'
+alias cat='bat --style=plain --paging=never'
+alias ls='exa --group-directories-first'
+alias tree='exa -T'
 alias ..="cd .."
 alias ...="cd ../.."
 alias ll="ls -l"

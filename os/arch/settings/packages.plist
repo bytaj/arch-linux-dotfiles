@@ -40,6 +40,7 @@ avahi
 base
 bash
 bash-completion
+bat
 bc
 bibata-cursor-theme-bin
 bind
@@ -101,6 +102,7 @@ eglexternalplatform
 electron13
 elfutils
 ethtool
+exa
 exfatprogs
 exo
 expac
@@ -168,6 +170,7 @@ harfbuzz
 hdparm
 hicolor-icon-theme
 hidapi
+http-parser
 hw-probe
 hwids
 hwinfo
@@ -239,6 +242,7 @@ libffi
 libfido2
 libfontenc
 libgcrypt
+libgit2
 libgksu
 libglvnd
 libgnome-keyring
