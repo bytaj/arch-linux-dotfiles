@@ -4,4 +4,5 @@ rustup default stable
 cargo install docpars
 
 git submodule add https://github.com/CodelyTV/dotly modules/dotly
+git submodule update --init --recursive
 export DOTFILES_PATH="$HOME/.dotfiles" && export DOTLY_PATH="$DOTFILES_PATH/modules/dotly" && "$DOTLY_PATH/bin/dot" self install

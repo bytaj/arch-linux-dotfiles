@@ -3,10 +3,11 @@ echo
 echo "Self install scripts must have chmod u+x to run"
 echo
 
+zsh
 dot arch install import
 dot symlinks apply
-yay -S nerd-fonts-ubuntu-mono
-yay -S jetbrains-toolbox
+#yay -S nerd-fonts-ubuntu-mono
+#yay -S jetbrains-toolbox
 pip install psutil
 sudo usermod -aG docker $(whoami)
 sudo systemctl enable docker
