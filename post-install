@@ -5,13 +5,16 @@ echo
 
 dot arch install import
 dot symlinks apply
-#yay -S nerd-fonts-ubuntu-mono
-#yay -S jetbrains-toolbox
 pip install psutil
 sudo usermod -aG docker $(whoami)
 sudo systemctl enable docker
 sudo systemctl enable lightdm
+chsh -s /bin/bash
 
 cd /tmp
 git clone https://github.com/davatorium/rofi-themes.git
 sudo cp rofi-themes/User\ Themes/onedark.rasi /usr/share/rofi/themes
+
+#Manual steps
+#yay -S nerd-fonts-ubuntu-mono
+#yay -S jetbrains-toolbox
