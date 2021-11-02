@@ -3,7 +3,6 @@ echo
 echo "Self install scripts must have chmod u+x to run"
 echo
 
-zsh
 dot arch install import
 dot symlinks apply
 #yay -S nerd-fonts-ubuntu-mono
