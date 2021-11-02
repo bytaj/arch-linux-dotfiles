@@ -69,8 +69,8 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     ([mod, "shift"], "r", lazy.spawn("redshift -x")),
 
     # Screenshot
-    ([mod], "s", lazy.spawn("scrot")),
-    ([mod, "shift"], "s", lazy.spawn("scrot -s")),
+    (["control", "shift"], "space", lazy.spawn("flameshot gui")),
+
 
     # ------------ Hardware Configs ------------
 

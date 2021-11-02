@@ -21,11 +21,10 @@ You can find the next steps in this URL https://www.arcolinuxd.com/installation/
 2. `skel`
 3. `upall`
 4. VGA Drivers installation (Outside the guide and NVIDIA GPU case):
-    1. `sudo snap -S nvidia`
-    2. `sudo snap -S nvidia-utils`
-    3. `nvidia-xconfig`
+    1. `sudo pacman -S nvidia nvidia-utils`
+    2. `nvidia-xconfig`
 5. Now, if you want graphic environement, you have to choose a login manager and window manager. In my case, *lightdm* and *qtile*:
-    1. `sudo snap -S lightdm lightdm-gtk-greeter qtile`
+    1. `sudo pacman -S lightdm lightdm-gtk-greeter qtile`
     2. `sudo systemctl enable lightdm`
 
 With this you should have the basic environement to start working.

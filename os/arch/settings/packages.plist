@@ -47,6 +47,7 @@ bind
 binutils
 bison
 bluez-libs
+bridge-utils
 brightnessctl
 broadcom-wl
 brotli
@@ -65,6 +66,7 @@ chaotic-keyring
 cifs-utils
 clonezilla
 code
+containerd
 coreutils
 cracklib
 crda
@@ -84,11 +86,15 @@ dhclient
 dialog
 diffutils
 ding-libs
+discord
 dmidecode
 dmraid
 dnsmasq
 dnssec-anchors
+docker
+docker-compose
 dosfstools
+double-conversion
 drbl
 duf-bin
 e2fsprogs
@@ -117,6 +123,7 @@ filesystem
 findutils
 firefox
 flac
+flameshot
 flex
 fontconfig
 freetype2
@@ -188,8 +195,12 @@ iso-codes
 iw
 jack2
 jansson
+java-runtime-common
 jbig2dec
+jetbrains-toolbox
 jfsutils
+jre-openjdk
+jre-openjdk-headless
 js78
 json-c
 json-glib
@@ -271,6 +282,7 @@ libmnl
 libmodplug
 libmpc
 libndp
+libnet
 libnetfilter_conntrack
 libnewt
 libnfnetlink
@@ -367,6 +379,7 @@ libxrender
 libxres
 libxshmfence
 libxslt
+libxss
 libxt
 libxtst
 libxv
@@ -399,6 +412,7 @@ make
 man-db
 man-pages
 mc
+md4c
 mdadm
 memtest86+
 mesa
@@ -556,6 +570,8 @@ python-urllib3
 python-webencodings
 python-xcffib
 python-yaml
+qt5-base
+qt5-svg
 qtile
 rav1e
 re2
@@ -570,6 +586,7 @@ rpcbind
 rsync
 rtkit
 run-parts
+runc
 rxvt-unicode
 rxvt-unicode-terminfo
 sardi-icons
@@ -618,6 +635,7 @@ thunar
 tmux
 tpm2-tss
 tracker3
+tslib
 ttf-dejavu
 ttf-hack
 ttf-liberation
@@ -662,10 +680,12 @@ xcb-proto
 xcb-util
 xcb-util-cursor
 xcb-util-image
+xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
 xcb-util-xrm
 xdg-user-dirs
+xdg-utils
 xf86-input-elographics
 xf86-input-evdev
 xf86-input-libinput
