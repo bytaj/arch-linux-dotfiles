@@ -4,11 +4,13 @@ echo "Self install scripts must have chmod u+x to run"
 echo
 
 dot arch install import
+dot symlinks apply
 yay -S nerd-fonts-ubuntu-mono
 yay -S jetbrains-toolbox
 pip install psutil
 sudo usermod -aG docker $(whoami)
 sudo systemctl enable docker
+sudo systemctl enable lightdm
 
 cd /tmp
 git clone https://github.com/davatorium/rofi-themes.git

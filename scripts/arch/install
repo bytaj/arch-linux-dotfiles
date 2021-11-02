@@ -22,13 +22,11 @@ case $1 in
 "import")
   import_plist_path="${DOTLY_SETTINGS_PATH}"
 
-  sudo -v
-
   if [[ -d "$import_plist_path" ]]; then
     for plist in "${import_plist_path}"/*.plist; do
       for pkgName in $(cat $plist)
       do
-        pacman -S --force --noconfirm $pkgName
+        sudo pacman -S --noconfirm $pkgName
       done
         echo "Reinstalled all packages."
     done
