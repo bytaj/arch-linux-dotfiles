@@ -35,11 +35,7 @@ fi
 # Screens
 hdmi=`xrandr | grep ' connected' | grep 'HDMI' | awk '{print $1}'`
 
-if [ "$hdmi" = "HDMI-1" ]; then
-  xrandr --output eDP-1 --primary --mode 1366x768 --pos 276x1080 --output HDMI-1 --mode 1920x1080 --pos 0x0 &
-else
-  xrandr --output eDP-1 --primary --mode 1366x768 --pos 0x0 --rotate normal --output HDMI-1 --off --output DP-1 --off &
-fi
+xrandr --output DVI-I-0 --off --output DVI-I-1 --off --output HDMI-0 --mode 3840x2160 --pos 2560x0 --rotate normal --output DP-0 --primary --mode 2560x1440 --pos 0x0 --rotate normal --output DP-1 --off --output DP-2 --off --output DP-3 --off --output DP-4 --off --output DP-5 --off
 
 # Composer
 picom &

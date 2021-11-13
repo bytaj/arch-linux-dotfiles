@@ -19,6 +19,6 @@
     ~/.inputrc: shell/.inputrc
     ~/.config/qtile: windows/manager/qtile
     ~/.config/JetBrains/PhpStorm2021.2/keymaps/bytaj.xml: editors/jetbrains/keymaps/bytaj.xml
-    ~/.xsession: windows/system/xsession
+    ~/etc/X11/xinit/xinitrc: windows/system/xsession
     ~/.config/alacritty: shell/alacritty
     ~/.config/rofi: windows/utils/rofi

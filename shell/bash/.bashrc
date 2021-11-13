@@ -48,3 +48,7 @@ if [ -n "$(ls -A "$DOTFILES_PATH/shell/bash/completions/")" ]; then
     source "$bash_file"
   done
 fi
+
+source /usr/share/nvm/init-nvm.sh
+
+neofetch
