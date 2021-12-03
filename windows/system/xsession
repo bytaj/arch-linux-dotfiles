@@ -48,4 +48,4 @@ udiskie -t &
 # Java Fonts
 xsettingsd &
 # Wallpaper
-feh --bg-scale wallpapers/wallpaper1.jpg &
+feh --bg-scale $HOME/wallpapers/wallpaper1.jpg &

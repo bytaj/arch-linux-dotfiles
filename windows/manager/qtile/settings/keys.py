@@ -56,17 +56,13 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     ([mod, "shift"], "m", lazy.spawn("rofi -show")),
 
     # Browser
-    ([mod], "b", lazy.spawn("firefox")),
-
-    # File Explorer
-    ([mod], "e", lazy.spawn("pcmanfm")),
+    ([mod], "b", lazy.spawn("brave")),
 
     # Terminal
     ([mod], "Return", lazy.spawn("alacritty")),
 
-    # Redshift
-    ([mod], "r", lazy.spawn("redshift -O 2400")),
-    ([mod, "shift"], "r", lazy.spawn("redshift -x")),
+    # code editor
+    ([mod, "shift"], "e", lazy.spawn("phpstorm")),
 
     # Screenshot
     (["control", "shift"], "space", lazy.spawn("flameshot gui")),
@@ -83,6 +79,10 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     )),
     ([], "XF86AudioMute", lazy.spawn(
         "pactl set-sink-mute @DEFAULT_SINK@ toggle"
+    )),
+
+    ([], "XF86Calculator", lazy.spawn(
+        "qalculate-gtkR"
     )),
 
     # Brightness

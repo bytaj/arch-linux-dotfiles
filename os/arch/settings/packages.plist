@@ -6,6 +6,7 @@ adobe-source-han-sans-jp-fonts
 adobe-source-han-sans-kr-fonts
 adwaita-icon-theme
 alacritty
+albert
 alsa-lib
 alsa-topology-conf
 alsa-ucm-conf
@@ -97,6 +98,7 @@ docker-compose
 dosfstools
 double-conversion
 drbl
+dropbox
 duf-bin
 e2fsprogs
 ecryptfs-utils
@@ -156,6 +158,7 @@ gnu-netcat
 gnupg
 gnutls
 gobject-introspection-runtime
+google-chrome
 gpart
 gparted
 gpgme
@@ -206,6 +209,7 @@ js78
 json-c
 json-glib
 kbd
+keepass
 keyutils
 kmod
 krb5
@@ -238,6 +242,7 @@ libcolord
 libconfig
 libcroco
 libcups
+libcurl-gnutls
 libdaemon
 libdatrie
 libdbusmenu-glib
@@ -254,6 +259,7 @@ libffi
 libfido2
 libfontenc
 libgcrypt
+libgdiplus
 libgit2
 libgksu
 libglvnd
@@ -272,6 +278,7 @@ libindicator-gtk3
 libinih
 libinput
 libjpeg-turbo
+libkeybinder3
 libksba
 libldap
 libmaxminddb
@@ -309,6 +316,7 @@ libproxy
 libpsl
 libpulse
 libpwquality
+libqalculate
 libqmi
 libqrtr-glib
 libraw1394
@@ -336,6 +344,7 @@ libtirpc
 libtool
 libunistring
 libunwind
+liburcu
 libusb
 libusb-compat
 libusbmuxd
@@ -356,6 +365,7 @@ libxcb
 libxcomposite
 libxcrypt
 libxcursor
+libxcvt
 libxdamage
 libxdg-basedir
 libxdmcp
@@ -387,6 +397,7 @@ libxv
 libxvmc
 libxxf86vm
 libyaml
+libzip
 licenses
 lightdm
 lightdm-gtk-greeter
@@ -425,6 +436,7 @@ mkinitcpio-openswap
 mlocate
 mobile-broadband-provider-info
 modemmanager
+mono
 mpfr
 mtdev
 mtools
@@ -458,7 +470,9 @@ numlockx
 nvidia
 nvidia-settings
 nvidia-utils
+nvm
 nvme-cli
+oniguruma
 openconnect
 opencore-amr
 openjpeg2
@@ -491,6 +505,7 @@ pciutils
 pcre
 pcre2
 pcsclite
+peek
 perl
 perl-clone
 perl-encode-locale
@@ -515,6 +530,7 @@ perl-uri
 perl-www-robotrules
 perl-xml-parser
 perl-xml-writer
+php
 picom
 pigz
 pinentry
@@ -525,6 +541,7 @@ pkgconf
 polkit
 polkit-gnome
 popt
+postman-bin
 ppp
 pptpclient
 procps-ng
@@ -548,6 +565,7 @@ python-docopt
 python-gobject
 python-html5lib
 python-idna
+python-importlib-metadata
 python-keyutils
 python-markdown
 python-more-itertools
@@ -572,8 +590,15 @@ python-urllib3
 python-webencodings
 python-xcffib
 python-yaml
+python-zipp
+qalculate-gtk
 qt5-base
+qt5-charts
+qt5-declarative
+qt5-graphicaleffects
+qt5-quickcontrols
 qt5-svg
+qt5-x11extras
 qtile
 rav1e
 re2
@@ -589,6 +614,7 @@ rsync
 rtkit
 run-parts
 runc
+rustup
 rxvt-unicode
 rxvt-unicode-terminfo
 sardi-icons
@@ -607,6 +633,7 @@ sof-firmware
 sound-theme-freedesktop
 speex
 speexdsp
+spotify
 sqlite
 squashfs-tools
 srt
@@ -686,6 +713,7 @@ xcb-util-keysyms
 xcb-util-renderutil
 xcb-util-wm
 xcb-util-xrm
+xdebug
 xdg-user-dirs
 xdg-utils
 xf86-input-elographics
