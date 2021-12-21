@@ -1,4 +1,4 @@
-sudo pacman -S cargo
+sudo apt-get install -y cargo
 rustup install stable
 rustup default stable
 cargo install docpars

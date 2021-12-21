@@ -2,7 +2,7 @@
 alias sudo='sudo '
 
 alias grep='grep --color=auto'
-alias cat='bat --style=plain --paging=never'
+alias cat='batcat --style=plain --paging=never'
 alias ls='exa --group-directories-first'
 alias tree='exa -T'
 alias ..="cd .."
