@@ -11,6 +11,7 @@ alias ll="ls -l"
 alias la="ls -la"
 alias ~="cd ~"
 alias dotfiles='cd $DOTFILES_PATH'
+alias python='python3'
 
 # Git
 alias gaa="git add -A"
