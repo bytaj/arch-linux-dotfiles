@@ -22,3 +22,4 @@
     ~/etc/X11/xinit/xinitrc: windows/system/xsession
     ~/.config/alacritty: shell/alacritty
     ~/.config/rofi: windows/utils/rofi
+    ~/.config/terminator/config: shell/terminator/config
