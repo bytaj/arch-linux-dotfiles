@@ -1,0 +1,75 @@
+<application>
+  <component name="DynamicPluginEnabler">
+    <trackers>
+      <map>
+        <entry key="22LDNauLqfgKpb9fNTcvjRv8WNT">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+        <entry key="24NToVxndlF0oHckQaaL2SQ7y0Z">
+          <value>
+            <ProjectPluginTracker />
+          </value>
+        </entry>
+      </map>
+    </trackers>
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="$USER_HOME$/.nvm/versions/node/v14.18.2/bin/node" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Behat.Splitter.Proportion" value="0.26068735" />
+    <property name="CWM_LOGGING_VERSION" value="1" />
+    <property name="CommitChangeListDialog.DETAILS_SPLITTER_PROPORTION_2" value="0.60429835" />
+    <property name="ExpandBeforeRunStepsPanel" value="true" />
+    <property name="FileTemplates.CurrentTab" value="Code" />
+    <property name="FileTemplates.SelectedTemplate" value="Codeception Functional Test Method" />
+    <property name="FindSplitterProportion" value="0.32983425" />
+    <property name="InstalledPluginsSearchHistory" value="codely&#10;codel&#10;code&#10;cod&#10;co" />
+    <property name="KEYMAP" value="size&#10;caret&#10;line&#10;multi" />
+    <property name="MarketplacePluginsSearchHistory" value="codely&#10;/tag:Keymap&#10;codel" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="NonModalCommitPromotionState" value="ACCEPTED" />
+    <property name="PhpStorm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration" value="true" />
+    <property name="PyCharm.InitialConfiguration.V2" value="true" />
+    <property name="PyCharm.InitialConfiguration.V3" value="true" />
+    <property name="PyCharm.InitialConfiguration.V4" value="true" />
+    <property name="PyCharm.InitialConfiguration.V5" value="true" />
+    <property name="PyCharm.InitialConfiguration.V6" value="true" />
+    <property name="PyCharm.InitialConfiguration.V7" value="true" />
+    <property name="SHELLCHECK.PATH" value="$APPLICATION_PLUGINS_DIR$/Shell Script/shellcheck" />
+    <property name="SettingsSearchHistory" value="linter" />
+    <property name="SqlStructureView.filterD.file.structure.state" value="true" />
+    <property name="Vcs.Push.Splitter.Tree.Proportion" value="0.4925" />
+    <property name="appcds.runOnSecondStart" value="PY-213.5744.248-ddad216c7609d8e01277c96ef241d156c3843ef36c159ed27385606dbabbebe3" />
+    <property name="bundled.plugins.list.saved.version" value="PS-213.5744.279" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="300" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.1" value="800" />
+    <property name="evlsprt3.213" value="7" />
+    <property name="experimentalFeature.terminal.shell.command.handling" value="false" />
+    <property name="file.chooser.recent.files" value="$USER_HOME$/develop/competitive-programming&#10;/home/bytaj/develop/mamby-web-back" />
+    <property name="file.gist.reindex.count" value="351" />
+    <property name="fileTypeChangedCounter" value="4" />
+    <property name="fileTypeDetectors" value="com.intellij.database.vfs.DbStorageFileType$Detector:com.intellij.docker.dockerFile.DockerFileTypeDetector:com.intellij.ide.scratch.ScratchFileServiceImpl$Detector:com.intellij.javascript.debugger.sourcemap.SourceMapFileType$MyFileTypeDetector:org.jetbrains.plugins.textmate.TextMateFileType$TextMateFileDetector" />
+    <property name="got.it.tooltip.changes.view.toolwindow" value="1" />
+    <property name="got.it.tooltip.cwm.invitation.notification" value="1" />
+    <property name="got.it.tooltip.database.schema.control.got.it" value="1" />
+    <property name="got.it.tooltip.reader.mode.got.it" value="1" />
+    <property name="gotit.previous.run" value="PS-213.5744.279" />
+    <property name="ide.memory.adjusted" value="true" />
+    <property name="input.method.disabler.muted" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/develop/competitive-programming" />
+    <property name="registry.to.advanced.settings.migration.build" value="PY-213.5744.248" />
+    <property name="tasks.pass.word.conversion.enforced" value="true" />
+    <property name="ts.lib.d.ts.version" value="4.4.4" />
+  </component>
+  <component name="TerminalCommandHistoryManager">
+    <command-history-files>
+      <command-history-file filename="mamby-web-back-history" project-path="$USER_HOME$/develop/mamby-web-back" last-access-time="1643380162548" />
+      <command-history-file filename="mamby-web-back-history1" project-path="$USER_HOME$/develop/mamby-web-back" last-access-time="1643380162553" />
+    </command-history-files>
+  </component>
+</application>
