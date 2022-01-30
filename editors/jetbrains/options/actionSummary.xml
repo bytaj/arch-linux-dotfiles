@@ -52,7 +52,7 @@
       <i c="84" l="1643486984656" />
     </e>
     <e n="CloseProject">
-      <i c="1" l="1643472297301" />
+      <i c="2" l="1643561458923" />
     </e>
     <e n="CodeCompletion">
       <i c="151" l="1643386424747" />
@@ -490,7 +490,7 @@
       <i c="3" l="1640632388576" />
     </e>
     <e n="WelcomeScreen.OpenDirectoryProject">
-      <i c="2" l="1643472304545" />
+      <i c="3" l="1643558567241" />
     </e>
     <e n="WelcomeScreen.RemoveSelected">
       <i c="1" l="1643472303458" />
